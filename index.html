@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Animating Shapes
+        </title>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+<body>
+    <a-scene>
+        <a-sky color="#EBEBEB">
+            
+            <a-entity>
+                <a-sphere position="0 0 0" radius="9" color="blue"></a-sphere>
+            </a-entity>
+            <a-entity>
+                <a-sphere position="0 0 0" radius="8" color="white"></a-sphere>
+            </a-entity>
+            <a-entity>
+                <a-sphere position="0 1.5 0" radius="1" color="red"></a-sphere>
+            </a-entity>
+            <a-entity>
+                <a-circle position="1.55 7 0" radius="3" color="white" animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 1000"></a-circle>></a-sphere>
+                <a-circle position="1.55 7 0" radius="3" color="white" animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 1000"></a-circle>></a-sphere>
+                <a-circle position="1.55 7 0" radius="1" color="black" animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 1000"></a-circle>></a-sphere>
+                <a-circle position="1.55 7 0" radius="1" color="black" animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 1000"></a-circle>></a-sphere>
+            </a-entity>
+        <a-camera look-controls-enabled wasd-controls-enabled position="0 5 15"> </a-camera>
+    </a-scene>
+</body>
+</html>
